@@ -254,6 +254,16 @@ h1:first-child {
 	margin-top: 0
 }
 
+.item-meta {
+	color: #aaa;
+	font-size: 9px
+}
+
+.item-title,.item-title:visited {
+	color: #333;
+	font-size: 14px
+}
+
 .page-meta {
 	color: #aaa;
 	font-size: 12px
