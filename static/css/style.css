@@ -28,6 +28,15 @@ a {
 	background-color: transparent
 }
 
+a {
+	color: #428bca;
+	text-decoration: none
+}
+
+a:visited {
+	color: #428bca
+}
+
 a:active,a:hover {
 	outline: 0
 }
