@@ -1,6 +1,6 @@
-name = 'catstrap'
+name = 'simple'
 author = 'su-kaiyao'
-homepage = 'https://github.com/su-kaiyao/catsup-theme-catstrap'
+homepage = 'https://github.com/su-kaiyao/catsup-theme-simple'
 post_per_page = 10
 vars = {
     "github": "su-kaiyao",
