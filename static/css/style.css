@@ -269,6 +269,11 @@ h1:first-child {
 	font-size: 12px
 }
 
+.post-meta {
+	color: #aaa;
+	font-size: 9px
+}
+
 .post-content p {
 	font-size: 14px;
 	line-height: 22px
