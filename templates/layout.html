@@ -1,0 +1,40 @@
+{% from "utils.html" import analytics %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    {% block head %}{% endblock %}
+    <title>{% block title %}{{ site.name }}{% endblock %}</title>
+    <link rel="stylesheet" href="{{ static_url("css/style.css") }}" type="text/css" />
+    <link rel="stylesheet" href="{{ static_url("css/pygments_style.css") }}" type="text/css" />
+    <link rel="alternate" type="application/rss+xml" href="{{ url_for('feed') }}" title="{{ site.name }}" />
+    <link rel="canonical" href="{{ permalink }}"/>
+    {{ analytics() }}
+</head>
+
+<body>
+<div id="wrap" class="clearfix">
+    <div class="pull-left w180">
+        <div id="logo">
+            <a href="http://blog.francistm.com/"><img src="Francis%27%20Blog_files/logo.png"></a>
+        </div>
+
+        <ul id="navigator">
+            {% for page in pages %}
+            <li><a href="{{ url_for(page) }}">{{ page.title }}</a></li>
+            {% endfor %}
+            <li><a href="blogs.html">日志归档</a></li>
+        </ul>
+    </div>
+
+    <div class="pull-right w910">
+        {% block content %}
+        {% endblock %}
+    </div>
+
+</div>
+</body>
+
+</html>
+
+
