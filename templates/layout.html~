@@ -20,7 +20,7 @@
         </div>
 
         <ul id="navigator">
-            <li><a href="http://kaiyao.net.cn">日志归档</a></li>
+            <li><a href="{{ url_for(page) }}">{{ page.title }}</a></li>
             {% for page in pages %}
             <li><a href="{{ url_for(page) }}">{{ page.title }}</a></li>
             {% endfor %}
