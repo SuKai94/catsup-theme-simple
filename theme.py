@@ -1,7 +1,7 @@
 name = 'simple'
 author = 'su-kaiyao'
 homepage = 'https://github.com/su-kaiyao/catsup-theme-simple'
-post_per_page = 10
+post_per_page = 100
 vars = {
     "github": "su-kaiyao",
     "links": [
