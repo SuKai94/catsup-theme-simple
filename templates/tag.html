@@ -6,7 +6,7 @@
 
 {% block content %}
 <div class="box">
-    <header>{{ tag.name }} 标签下的文章</header>
+    <h1 class="post-title">{{ tag.name }} 标签下的文章</h1>
     <ol id="posts">
         {% for post in posts %}
         <li>
