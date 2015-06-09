@@ -301,7 +301,7 @@ h1:first-child {
 	overflow: auto;
 	line-height: 1.5;
 	font-size: 0.96em;
-	font-family: "Inconsolata","Menlo",monospace;
+	font-family: "Inconsolata","Menlo",monospace,sans-serif, "Microsoft Yahei";
 	color: #4C4C4C;
 	background-color: #FCFCFC;
 }
