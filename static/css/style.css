@@ -276,7 +276,7 @@ h1:first-child {
 
 .post-content p {
 	font-size: 16px;
-	line-height: 22px
+	line-height: 25px
 }
 
 .post-content img {
@@ -307,7 +307,8 @@ h1:first-child {
 }
 
 .post-content ul li,.post-content ol li {
-	margin: 10px auto
+	margin: 10px auto;
+	line-height: 25px
 }
 
 ul.items {
