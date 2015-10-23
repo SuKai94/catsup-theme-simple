@@ -6,7 +6,7 @@ Overview
 
 A theme for blog system called [catsup](http://catsup-zh.readthedocs.org/en/latest/index.html)
 
-Online Demo: [http://kaiyap.net.cn](http://kaiyao.net.cn)
+Online Demo: [http://sukai.me](http://sukai.me)
 
 Installation
 ---
